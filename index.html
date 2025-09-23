@@ -1,148 +1,145 @@
-<!doctype html>
+// Jvan Translation — One‑Page Website (Tan/Brown) // How to use: // 1) Replace HERO_IMAGE_SRC with Jvan's photo URL once you upload it (or paste a data URL). // 2) Replace CONTACT_EMAIL and WHATSAPP_URL with real details. // 3) Copy this into your project (e.g., Vite + React) as App.jsx/tsx and run. Tailwind classes are used for styling. // 4) For a super‑quick static export, you can also paste this into a single React page in tools like Netlify/Vercel.
 
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kalima AI — Arabic ⇄ English ⇄ Kurdish Translation & Transcription</title>
-  <meta name="description" content="Kalima AI provides fast, accurate Arabic ⇄ English ⇄ Kurdish translation and transcription services. Human‑verified quality with AI speed. Rush 24h options." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <meta property="og:title" content="Kalima AI — Arabic ⇄ English ⇄ Kurdish" />
-  <meta property="og:description" content="Human‑verified translation & transcription. Fast quotes, 24h rush." />
-  <meta property="og:type" content="website" />
-  <meta name="theme-color" content="#0f172a" />
-  <style>
-    :root{--bg:#0f172a;--card:#0b1328;--muted:#9ca3af;--text:#e5e7eb;--accent:#22c55e;--accent-2:#14b8a6;--line:#1f2a44}
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial; background:linear-gradient(180deg,#0b1226 0%, #0f172a 40%, #0b1226 100%); color:var(--text)}
-    .container{max-width:1100px;margin:0 auto;padding:24px}
-    .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
-    .brand{font-weight:700;letter-spacing:0.3px}
-    .chip{display:inline-flex;gap:6px;align-items:center;background:#0b1328;border:1px solid #233055;color:#b7c1d9;padding:6px 10px;border-radius:999px;font-size:12px}
-    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center;padding:32px 0}
-    .badge{display:inline-block;background:rgba(20,184,166,0.1);border:1px solid rgba(20,184,166,0.5);color:#99f6e4;padding:6px 12px;border-radius:999px;font-size:12px;margin-bottom:14px}
-    h1{font-size:40px;line-height:1.1;margin:0 0 12px}
-    .lead{color:#cbd5e1;font-size:18px;max-width:60ch}
-    .card{background:linear-gradient(180deg,#0e162f 0%, #0b1226 100%);border:1px solid var(--line);border-radius:16px;padding:20px}
-    .grid{display:grid;gap:16px}
-    .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-    .btn{display:inline-flex;gap:10px;align-items:center;border-radius:12px;padding:12px 16px;background:var(--accent);color:#052e16;font-weight:700;border:none;text-decoration:none}
-    .btn.secondary{background:transparent;border:1px solid #334155;color:#e2e8f0}
-    .section{padding:32px 0}
-    h2{font-size:28px;margin:0 0 12px}
-    p{margin:0 0 12px}
-    ul{margin:0;padding-left:18px;color:#cbd5e1}
-    li{margin:6px 0}
-    .pill{display:inline-block;border:1px solid #344562;color:#cbd5e1;border-radius:999px;padding:6px 10px;margin:4px 6px 0 0;font-size:13px}
-    .footer{border-top:1px solid var(--line);color:#94a3b8;margin-top:32px;padding-top:16px;font-size:14px}
-    .stat{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:12px;background:#0b1328;border:1px solid #233055}
-    .stat b{font-size:22px}
-    .contact-card label{font-size:13px;color:#94a3b8}
-    .contact-links a{margin-right:8px}
-    .k-grid{display:grid;gap:12px;grid-template-columns:repeat(4,minmax(0,1fr))}
-    .price{font-size:28px;font-weight:800}
-    .muted{color:#9aa8c2}
-    .check{color:#86efac}
-    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid-3{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}.k-grid{grid-template-columns:1fr 1fr}}
-  </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Kalima AI",
-    "description": "Arabic ⇄ English ⇄ Kurdish translation, transcription, and localization services.",
-    "url": "https://kalima.example",
-    "telephone": "+964-751-199-0451",
-    "address": {"@type":"PostalAddress","streetAddress":"3901 Elizabeth Ave","addressLocality":"New Bern","addressRegion":"NC","postalCode":"28562","addressCountry":"US"},
-    "areaServed": "Global",
-    "email": "sedajvan@gmail.com"
-  }
-  </script>
-</head>
-<body>
-  <div class="container">
-    <div class="nav">
-      <div class="brand">Kalima AI</div>
-      <span class="chip">Arabic ⇄ English ⇄ Kurdish</span>
-    </div><section class="hero">
-  <div>
-    <span class="badge">Human‑verified quality • AI‑accelerated speed</span>
-    <h1>Fast, accurate translation & transcription for Arabic, English, and Kurdish</h1>
-    <p class="lead">We help founders, researchers, and global teams communicate clearly. 24‑hour turnarounds, confidentiality by default, and native‑level quality checked by humans.</p>
-    <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap">
-      <a class="btn" href="mailto:kalimaai@gmail.com?subject=Project%20Inquiry%20—%20Kalima%20AI">Get a quote by email</a>
-      <a class="btn secondary" href="#services">View services</a>
-    </div>
-    <div style="display:flex;gap:12px;margin-top:16px;flex-wrap:wrap">
-      <div class="stat"><b>24h</b><span>Rush option</span></div>
-      <div class="stat"><b>99%</b><span>Accuracy target</span></div>
-      <div class="stat"><b>100%</b><span>Confidential</span></div>
-    </div>
-  </div>
-  <div class="card">
-    <h3 style="margin-top:0">Quick intake</h3>
-    <p>Send files or links and we’ll reply with price & ETA.</p>
-    <div class="grid grid-2" style="margin-top:10px">
-      <div class="contact-card">
-        <label>Email</label>
-        <p><a href="mailto:sedajvangmail.com">sedajvan@gmail.com</a></p>
+import { useState } from 'react'
+
+const HERO_IMAGE_SRC = "https://placehold.co/600x750?text=Jvan%20Seda" // TODO: swap with Jvan's photo const CONTACT_EMAIL = "jvan@example.com" // TODO: swap const WHATSAPP_URL = "https://wa.me/9647000000000" // TODO: swap (Iraq country code 964 as example)
+
+export default function App() { const [open, setOpen] = useState(false)
+
+return ( <div className="min-h-screen bg-amber-50 text-stone-800"> {/* Top Bar */} <header className="w-full border-b border-amber-200 bg-amber-50/80 backdrop-blur supports-[backdrop-filter]:bg-amber-50/70 sticky top-0 z-40"> <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between"> <div className="flex items-center gap-3"> <div className="h-9 w-9 rounded-xl bg-amber-200 flex items-center justify-center text-stone-800 font-bold">JS</div> <div> <p className="font-semibold leading-tight">Jvan Seda</p> <p className="text-xs text-stone-600">Arabic • Kurdish • English</p> </div> </div> <nav className="hidden md:flex items-center gap-6 text-sm"> <a href="#services" className="hover:text-stone-950">Services</a> <a href="#industries" className="hover:text-stone-950">Industries</a> <a href="#pricing" className="hover:text-stone-950">Pricing</a> <a href="#about" className="hover:text-stone-950">About</a> <a href="#contact" className="hover:text-stone-950">Contact</a> </nav> <div className="md:hidden"> <button onClick={() => setOpen(!open)} className="px-3 py-2 rounded-xl border border-amber-300 bg-white/60">Menu</button> </div> <a href={mailto:${CONTACT_EMAIL}} className="hidden md:inline-block px-4 py-2 rounded-xl bg-stone-900 text-amber-50 hover:opacity-90">Get a Quote</a> </div> {open && ( <div className="md:hidden border-t border-amber-200"> <div className="px-4 py-3 flex flex-col gap-3 text-sm"> <a href="#services" onClick={()=>setOpen(false)}>Services</a> <a href="#industries" onClick={()=>setOpen(false)}>Industries</a> <a href="#pricing" onClick={()=>setOpen(false)}>Pricing</a> <a href="#about" onClick={()=>setOpen(false)}>About</a> <a href="#contact" onClick={()=>setOpen(false)}>Contact</a> <a href={mailto:${CONTACT_EMAIL}} className="px-4 py-2 rounded-xl bg-stone-900 text-amber-50 text-center">Get a Quote</a> </div> </div> )} </header>
+
+{/* Hero */}
+  <section className="mx-auto max-w-6xl px-4 pt-10 pb-8 grid md:grid-cols-2 gap-8 items-stretch">
+    <div className="flex flex-col justify-center">
+      <h1 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-stone-900">
+        Professional Translation & Transcription
+      </h1>
+      <p className="mt-4 text-stone-700 text-lg">
+        Native **Arabic** and **Kurdish**, fluent **English**.
+        Accurate, deadline‑driven, and culturally precise for business, travel, and government documents.
+      </p>
+      <div className="mt-6 flex flex-wrap gap-3">
+        <a href={`mailto:${CONTACT_EMAIL}`} className="px-5 py-3 rounded-2xl bg-stone-900 text-amber-50 hover:opacity-90">
+          Request a Quote
+        </a>
+        <a href={WHATSAPP_URL} className="px-5 py-3 rounded-2xl border border-stone-300 bg-white hover:bg-stone-100">
+          WhatsApp
+        </a>
       </div>
-      <div class="contact-card">
-        <label>Phone</label>
-        <p><a href="tel:+9647511990451">964-751-199-0451</a></p>
+      <div className="mt-6 flex flex-wrap gap-2 text-xs text-stone-600">
+        <span className="px-2 py-1 rounded-lg bg-amber-100 border border-amber-200">Arabic ↔ English</span>
+        <span className="px-2 py-1 rounded-lg bg-amber-100 border border-amber-200">Kurdish ↔ English</span>
+        <span className="px-2 py-1 rounded-lg bg-amber-100 border border-amber-200">Arabic ↔ Kurdish</span>
       </div>
     </div>
-    <div class="contact-card">
-      <label>Business address</label>
-      <p>3901 Elizabeth Ave New Bern NC 28562</p>
+    <div className="relative">
+      <div className="absolute -inset-2 rounded-3xl bg-gradient-to-b from-amber-200/60 to-amber-100 blur-xl"></div>
+      <img src={HERO_IMAGE_SRC} alt="Jvan Seda profile" className="relative w-full h-full object-cover rounded-3xl shadow-2xl border border-amber-200" />
     </div>
-    <div class="contact-links" style="margin-top:10px">
-      <a class="pill" href="#samples">Sample outputs</a>
-      <a class="pill" href="#faq">FAQ</a>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="services" class="section">
-  <h2>Services</h2>
-  <div class="grid grid-3">
-    <div class="card">
-      <h3>Translation</h3>
-      <p>Arabic ⇄ English ⇄ Kurdish (Kurmanji/Sorani). Business, legal, academic, hospitality, and general content.</p>
-      <ul>
-        <li>Human review on all deliveries</li>
-        <li>Glossary/terminology consistency</li>
-        <li>Document formatting preserved</li>
-      </ul>
+  {/* Trust bar */}
+  <section className="mx-auto max-w-6xl px-4 pb-6">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs text-stone-600">
+      <Badge>Human‑verified</Badge>
+      <Badge>Confidential</Badge>
+      <Badge>Fast Turnaround</Badge>
+      <Badge>Affordable Rates</Badge>
     </div>
-    <div class="card">
-      <h3>Transcription & Subtitles</h3>
-      <p>Clean verbatim with timestamps; caption files (.srt/.vtt) for YouTube, shorts, and courses.</p>
-      <ul>
-        <li>Speaker labels on request</li>
-        <li>Rapid turnaround (same‑day available)</li>
-        <li>Noise‑robust processing</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Localization & QA</h3>
-      <p>Website/app copy, marketing assets, and product docs tailored to regional nuance. Final QA passes by native reviewer.</p>
-      <ul>
-        <li>Style guide + glossary setup</li>
-        <li>In‑context review</li>
-        <li>Ongoing updates</li>
-      </ul>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="section" id="pricing">
-  <h2>Simple pricing</h2>
-  <div class="grid grid-3">
+  {/* Services */}
+  <section id="services" className="mx-auto max-w-6xl px-4 py-10">
+    <h2 className="text-2xl font-semibold text-stone-900">Services</h2>
+    <div className="mt-6 grid md:grid-cols-3 gap-6">
+      <Card title="Document Translation" desc="Passports, certificates, contracts, resumes, marketing, websites. Certified upon request."/>
+      <Card title="Transcription & Subtitles" desc="Audio/video to accurate text with timestamps; subtitle files (SRT/VTT)."/>
+      <Card title="Interpretation" desc="Remote meetings, interviews, and live calls. Consecutive or whispered."/>
+    </div>
+  </section>
+
+  {/* Industries */}
+  <section id="industries" className="mx-auto max-w-6xl px-4 py-10">
+    <h2 className="text-2xl font-semibold text-stone-900">Industries</h2>
+    <div className="mt-6 grid md:grid-cols-4 gap-6 text-sm">
+      <Pill>Immigration & Legal</Pill>
+      <Pill>Travel & Hospitality</Pill>
+      <Pill>eCommerce & Marketing</Pill>
+      <Pill>Government & NGO</Pill>
+    </div>
+  </section>
+
+  {/* Pricing */}
+  <section id="pricing" className="mx-auto max-w-6xl px-4 py-10">
+    <h2 className="text-2xl font-semibold text-stone-900">Simple Pricing</h2>
+    <div className="mt-6 grid md:grid-cols-3 gap-6">
+      <PriceCard tier="Per Word" price="$0.08" note="Minimum $20 per document" features={["Source → Target","Proofread included","48–72h standard"]} />
+      <PriceCard tier="Per Minute (AV)" price="$1.50" note="Audio/Video transcription" features={["Timestamps optional","Speaker labels","Subtitle files"]} />
+      <PriceCard tier="Hourly (Interp.)" price="$35" note="Remote calls & meetings" features={["Zoom/WhatsApp/Signal","Consecutive or whispered","Prep included"]} />
+    </div>
+    <p className="mt-4 text-sm text-stone-600">Need certified translation? <a className="underline" href={`mailto:${CONTACT_EMAIL}`}>Email for a quote</a>.</p>
+  </section>
+
+  {/* About */}
+  <section id="about" className="mx-auto max-w-6xl px-4 py-10">
+    <div className="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 className="text-2xl font-semibold text-stone-900">About Jvan</h2>
+        <p className="mt-4 text-stone-700">I’m a trilingual translator based in Erbil. I’ve worked across hospitality, retail, and freelance translation, supporting clients in Arabic, Kurdish, and English. I focus on clear, human‑verified translations with fast turnaround and strict confidentiality.</p>
+        <ul className="mt-4 text-sm list-disc pl-5 space-y-1 text-stone-700">
+          <li>Arabic • Kurdish • English</li>
+          <li>Tourism, immigration, contracts, customer support</li>
+          <li>Subtitles and transcripts for social media & YouTube</li>
+        </ul>
+      </div>
+      <div className="rounded-3xl border border-amber-200 bg-white p-6 shadow-sm">
+        <h3 className="font-semibold text-stone-900">Quick Facts</h3>
+        <dl className="mt-4 grid grid-cols-2 gap-4 text-sm">
+          <Fact label="Turnaround" value="24–72h typical" />
+          <Fact label="Time Zone" value="UTC+3 (Erbil)" />
+          <Fact label="Delivery" value="PDF, DOCX, SRT" />
+          <Fact label="Payment" value="Wise/Payoneer/Bank" />
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  {/* Contact */}
+  <section id="contact" className="mx-auto max-w-6xl px-4 py-10">
+    <div className="rounded-3xl border border-amber-200 bg-amber-100/60 p-6">
+      <h2 className="text-2xl font-semibold text-stone-900">Get a Quote</h2>
+      <p className="mt-2 text-stone-700">Email your file(s) with deadline and target language. I’ll reply with a fixed quote and ETA.</p>
+      <div className="mt-4 flex flex-wrap gap-3">
+        <a href={`mailto:${CONTACT_EMAIL}`} className="px-5 py-3 rounded-2xl bg-stone-900 text-amber-50 hover:opacity-90">Email Files</a>
+        <a href={WHATSAPP_URL} className="px-5 py-3 rounded-2xl border border-stone-300 bg-white hover:bg-stone-100">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  {/* Footer */}
+  <footer className="mx-auto max-w-6xl px-4 py-10">
+    <div className="rounded-3xl border border-amber-200 bg-white p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div className="text-sm text-stone-600">© {new Date().getFullYear()} Jvan Seda Translation. All rights reserved.</div>
+      <div className="flex gap-4 text-sm">
+        <a href="#" className="hover:underline">Terms</a>
+        <a href="#" className="hover:underline">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</div>
+
+) }
+
+function Badge({ children }) { return ( <span className="px-3 py-1.5 rounded-xl border border-amber-300 bg-white text-stone-700 text-xs inline-flex items-center justify-center"> {children} </span> ) }
+
+function Card({ title, desc }) { return ( <div className="rounded-3xl border border-amber-200 bg-white p-6 shadow-sm"> <h3 className="font-semibold text-stone-900">{title}</h3> <p className="mt-2 text-sm text-stone-700">{desc}</p> </div> ) }
+
+function Pill({ children }) { return ( <div className="px-4 py-2 rounded-2xl bg-amber-100 border border-amber-200 text-stone-800 inline-flex items-center justify-center"> {children} </div> ) }
+
+function PriceCard({ tier, price, note, features }) { return ( <div className="rounded-3xl border border-amber-200 bg-white p-6 shadow-sm"> <div className="flex items-baseline justify-between"> <h3 className="font-semibold text-stone-900">{tier}</h3> <div className="text-2xl font-semibold text-stone-900">{price}<span className="text-base font-normal text-stone-600">/unit</span></div> </div> <p className="mt-1 text-xs text-stone-600">{note}</p> <ul className="mt-4 space-y-2 text-sm text-stone-700 list-disc pl-5"> {features.map((f, i) => <li key={i}>{f}</li>)} </ul> </div> ) }
+
+function Fact({ label, value }) { return ( <div> <dt className="text-stone-500 text-xs">{label}</dt> <dd className="text-stone-900 font-medium">{value}</dd> </div> ) }
+
     <div class="card">
       <h3>Translation</h3>
       <p class="price">$0.10–$0.18/word</p>
